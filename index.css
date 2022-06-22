@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+			background: yellow;			
+		
+			font-family: 'Poppins', sans-serif;
+}
+header{
+				background: url('Images/housecover3.jpg');
+				background-color: rgb(0,0,0,0.6);
+				height: 100vh;
+				background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			
+}
+.navbar{
+	  height: 10vh;	
+	  transition: 1s;
+	  font-family: 'Poppins', sans-serif;
+	  position: fixed;
+}
+.container-fluid{
+				padding-top: 1em;
+				z-index: 5555;
+				
+}
+.navbar-toggler-icon{
+		background: rgb(0,0,0,.2);
+		padding: .2em .4em;
+}
+.navbar-collapse{
+				justify-content: flex-end;		 
+				
+}
+.nav-link{
+		color: red;
+}
+.navbar-brand {
+				font-weight: bold;
+				margin-left: .5em;
+				transition: 1s;
+				text-shadow: 5px 5px 10px black;
+			
+}
+.navbar-brand:hover{
+				font-size:20px;
+}
+.boots{
+			background-color: #045de9;
+background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+   padding: .2em .5em;
+   border-radius: 5px;
+   font-size: 20px;
+
+}
+.navbar-toggler-icon{
+				width: 50%;
+}
+.props{
+				font-size: 20px;
+}
+.hero{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				font-family: 'Poppins', sans-serif;
+				padding-top: 8em;
+}
+
+.vis{
+				font-size: 30px;
+				color:whitesmoke;
+				text-align: center;
+				font-weight: bolder;			
+				margin-top: 2em;
+				margin-right: 1em;
+				margin-left: 1em;
+				margin-bottom: .5em;
+				text-shadow: 10px 10px 15px black;
+				
+}
+ul a{
+				text-shadow: 5px 5px 20px grey;
+				-webkit-text-stroke: .4px black;
+			
+			
+}
+.bgcolor{
+				background: rgb(0,0,0,.6);
+}
+
+.btn btn-primary{
+				font-size: 10px;
+				cursor: pointer;
+}
+.email{
+      align-items: center;
+				justify-content: center;
+				display: flex;
+				flex-direction: column;				
+			 margin-top: 1em;
+			 margin-bottom: 1em;
+			
+}
+
+.email button{
+				padding: .3em 6em;
+				background: red;
+				border: none;
+				border-radius: 10px;
+				color: white;
+				font-weight: bold;
+				transition: .4s;
+}
+.email button:hover{
+				background: white;
+				border: 2px solid red;
+				color: black;
+				padding: .2em 5.5em;
+}
+
+.sec1{
+			background: rgb(0,0,0,.1);
+}
+
+.cardcontainer{
+				display: flex;
+				flex-direction: row;
+				gap:2em;
+				justify-content: center;
+				align-items: center;
+				padding: 2em 2em;
+}
+
+.card{
+				text-align: center;
+				transition: .5s ease-in-out;
+				
+}
+.card:hover{
+				transform: translateY(-8px);
+}
+.sec3{
+				
+				background: white;
+				
+				
+}
+.properties{
+				padding-top: 2em;
+				font-size: 25px;
+				color: red;
+				justify-content: center;
+				display: flex;
+				font-family: 'Poppins', sans-serif;
+				font-weight: bold;
+}
+.captionmodal{
+				font-family: 'Poppins', sans-serif;
+				padding: 2em 0em;
+}
+.modaltitle{
+				font-size: 20px;
+				font-weight: bold;
+				color: red;
+}
+.captionmodal button{
+				background: blue;
+				color: white;
+				font-weight: bold;
+				border: none;
+				padding: .5em 2em;
+				border-radius: 10px;
+}
+
+
+.reviews{
+				
+				background: whitesmoke;
+				font-family: 'Poppins', sans-serif;
+}
+
+.testimony{
+				font-family: 'Poppins', sans-serif;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 1em 0em;
+				font-size: 25px;
+				font-weight: bold;
+				color: red;
+				
+}
+#person{
+				width: 30%;
+}
+.reviewcontainer{
+				background: whitesmoke;
+				margin-bottom: 4em;
+				margin-left: 1em;
+				margin-right: 1em;
+				font-size: 10px;
+}
+.containerforall{
+      background: skyblue;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;				
+				padding: 2em 2em;
+}
+.costumer{
+			display: flex;
+			justify-content: center;	
+			flex-direction: column;
+			align-items: center;
+			padding: 1em 2em;
+}
+.star{
+				display: flex;
+				padding-top: 1em;
+}
+.comments{
+				text-align: center;
+				padding-top: 2em 10em;
+				font-size: 15px;
+}
+
+.costumerserve{
+    text-align: center;
+		 padding-bottom: 2em;
+}
+.call{
+				width: 10%;
+}
+
+.footer{
+				background: grey;
+				color: white;
+}
+.foot{
+				padding: 2em 4em;
+				font-size: 10px;
+}
+.date{
+				text-align: center;
+				font-size: 9px;
+}
+.soc img{
+      width: 30px;           
+}
+
+.soc img:hover{
+				border: 1px solid white;
+				border-radius: 20px;
+}
+.soc{
+			display: flex;
+			justify-content: center;
+			margin-top: -2em;
+			gap:1em;
+			padding-bottom: 2em;
+}
+@media screen and (max-width:900px){
+.navbar-nav{
+				background: rgb(0,0,0,0.6);
+			 margin-top: 1em;
+			 text-align: center;
+			 height: 100vh;
+			 transition: 1s;
+}
+
+li {
+			padding-top: 2em;
+		
+}
+
+a{
+				color: white;
+				font-size: 24px;
+}
+.cardcontainer{
+				display: flex;
+				flex-direction: column;
+				gap:2em;
+				justify-content: center;
+				align-items: center;
+}
+
+
+.conhouse{
+     display: flex;
+     flex-direction: column;
+			 padding: 2em 2em;
+				background: whitesmoke;
+				justify-content: center;
+				gap:4em;
+}
+.house1{
+				display: flex;
+				justify-content:center;
+				flex-direction: column;
+				gap:2em;
+				
+}
+.con{
+				display: flex;
+				flex-direction: column;
+				gap:3em;	
+}
+.hhh{
+				width: 100%;
+				transition: .4s;
+}
+.int{
+				width: 50%;
+				transition: .4s;
+}
+.hhh:hover{
+		 	transform: translateY(-6px);
+}
+.int:hover{
+				transform: translateY(-6px);
+}
+.inter{
+				display: flex;
+				gap:1em;
+				width: 80%;
+				justify-content: center;
+				align-items: center;
+				margin-left: 2em;
+}
+
+.deschouse{
+				
+				margin-top: -1em;
+				padding-bottom: 2em;
+				
+}
+.desctitle{
+		font-size: 20px;
+			color: blue;
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+			font-family: 'Poppins', sans-serif;
+}
+.subhead{
+			
+}
+.price{
+			
+				font-family: 'Poppins', sans-serif;
+				
+}
+.viewmore{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 2em 0em;
+				font-size: 20px;
+}
+.boots{
+				font-size: 15px;
+}
+.props{
+				font-size: 15px;
+}
+}
+@media screen and (min-width:900px){
+
+.container{
+				padding-top: 3em;				
+				margin: 0em 5em;
+}
+
+.conhouse{
+				display: flex;
+				padding-top: 2em;
+				align-items: center;
+				margin: 0em 4em;
+				justify-content: center;
+				flex-direction: column;
+				background: whitesmoke;
+}
+.house1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap:2em;
+				padding: 2em 0em;
+				margin-left: 2em;
+				
+}
+.con{
+				display: flex;
+				flex-direction: column;
+				gap:2em;
+}
+.hhh{
+				width: 50%;
+				transition: .5s;
+}
+.hhh:hover{
+		 	transform: translateY(-6px);
+}
+
+.int{
+				width: 40%;
+}
+
+.inter{
+				display: flex;
+				flex-direction: column;
+				gap:3em;
+				margin-right: 2em;
+}
+
+.deschouse{
+				margin-top: 2em;
+				padding-bottom: 2em;
+				margin-left: -9em;
+				
+}
+.desctitle{
+			font-size: 30px;
+			color: blue;
+			font-weight: bold;
+			font-family: 'Poppins', sans-serif;
+}
+.subhead{
+			
+}
+.price{
+				font-size: 20px;
+				font-weight: bold;
+				font-family: 'Poppins', sans-serif;
+				
+}
+.viewmore{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 2em 0em;
+				font-size: 20px;
+}
+.reviewcontainer{
+				background: whitesmoke;
+				margin-bottom: 4em;
+				margin-left: 10em;
+				margin-right: 10em;
+}
+.containerforall{
+      background: skyblue;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;				
+				padding: 2em 8em;				
+}
+.costumer{
+			display: flex;
+			justify-content: center;	
+			flex-direction: column;
+			align-items: center;
+			padding: 1em 2em;
+}
+.star{
+				display: flex;
+				padding-top: 1em;
+}
+.comments{
+				text-align: center;
+				padding-top: 2em 4em;
+				font-size: 18px;
+}
+#person{
+				width: 20%;
+}
+.call{
+				width: 3%;
+}
+
+
+}
